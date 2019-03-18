@@ -97,7 +97,7 @@ class Home extends Component {
                           onClick={() => this.saveBooks(book.id)}
                           className="btn btn-primary ml-2"
                         >
-                          Save
+                          SAVE
                         </button>
                       )}
                     />

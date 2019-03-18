@@ -8,7 +8,7 @@ class Nav extends Component {
     width: window.innerWidth
   };
 
-  widthUpdate = () => {
+  updateWidth = () => {
     const newState = { width: window.innerWidth };
 
     if (this.state.open && newState.width > 991) {
@@ -23,11 +23,11 @@ class Nav extends Component {
   };
 
   had() {
-    window.addEventListener("resize", this.widthUpdate);
+    window.addEventListener("resize", this.updateWidth);
   }
 
   willHave() {
-    window.removeEventListener("resize", this.widthUpdate);
+    window.removeEventListener("resize", this.updateWidth);
   }
 
   render() {
@@ -51,7 +51,7 @@ class Nav extends Component {
                 className={window.location.pathname === "/" ? "nav-link active" : "nav-link"}
                 to="/"
               >
-                Search
+                <strong>Search</strong>
               </Link>
             </li>
             <li >
@@ -59,7 +59,7 @@ class Nav extends Component {
                 className={window.location.pathname === "/saved" ? "nav-link active" : "nav-link"}
                 to="/saved"
               >
-                Saved
+                <strong>Saved</strong>
               </Link>
             </li>
           </ul>

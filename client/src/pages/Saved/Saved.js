@@ -59,7 +59,7 @@ class Saved extends Component {
                           onClick={() => this.deleteItem(book._id)}
                           className="btn btn-info ml-2"
                         >
-                          Delete
+                          DELETE
                         </button>
                       )}
                     />

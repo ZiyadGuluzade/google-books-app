@@ -7,8 +7,8 @@ const Book = ({ title, subtitle, authors, link, description, image, Button }) =>
   <ListItem>
     <Row className="flex-wrap-reverse">
       <Col size="md-8">
-        <h3>{title}</h3>
-        {subtitle && <h4>{subtitle}</h4>}
+        <h2>{title}</h2>
+        {subtitle && <h3>{subtitle}</h3>}
       </Col>
       <Col size="md-4">
         <div className="btn-container">

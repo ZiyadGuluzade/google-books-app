@@ -21,7 +21,7 @@ const Form = props => (
         type="submit"
         className="btn btn-lg btn-info"
       >
-        Search
+        SEARCH
       </button>
     </div>
   </form>
