@@ -39,7 +39,9 @@ Feel free to copy this repo and create your own app.
 
 After clonin the repo run: 
 
-> npm install
+```
+    npm install
 
-> npm start
+    npm start
+```
 
